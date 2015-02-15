@@ -13,4 +13,9 @@ describe('myApp.view1 module', function() {
     }));
 
   });
+
+  describe('my own test description', function(){
+    expect(true).toBe(true);
+  });
+
 });
